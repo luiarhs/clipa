@@ -1,4 +1,4 @@
-package mx.clip.api.entity;
+package mx.clip.api.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -16,5 +16,4 @@ public class Card {
     private String state;
     private String userId;
     private Transaction[] transactions;
-    
 }

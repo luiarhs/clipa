@@ -1,4 +1,4 @@
-package mx.clip.api.controller;
+package mx.clip.api.controllers;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

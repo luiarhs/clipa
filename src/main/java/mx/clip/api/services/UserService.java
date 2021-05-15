@@ -1,4 +1,4 @@
-package mx.clip.api.service;
+package mx.clip.api.services;
 
 public class UserService {
     

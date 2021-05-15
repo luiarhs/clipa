@@ -1,4 +1,4 @@
-package mx.clip.api.entity;
+package mx.clip.api.models;
 
 import java.util.Date;
 

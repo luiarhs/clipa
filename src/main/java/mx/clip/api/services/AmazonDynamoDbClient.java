@@ -1,4 +1,4 @@
-package mx.clip.api.service;
+package mx.clip.api.services;
 
 import java.net.URI;
 
@@ -30,8 +30,8 @@ public class AmazonDynamoDbClient {
 
         Region region = Region.US_EAST_2;
         AwsBasicCredentials credentials = AwsBasicCredentials.create(
-            "your_access_key_id",
-            "your_secret_access_key");
+            "AKIAY45LP3T7AGTC4KNW",
+            "jtvDbclG58yeGhNL1AXJcQAJ9nHnBRNcCaFjxhIw");
 
         ClientOverrideConfiguration.Builder overrideConfig =
             ClientOverrideConfiguration.builder();
