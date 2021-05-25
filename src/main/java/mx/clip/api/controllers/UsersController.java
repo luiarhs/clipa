@@ -1,5 +1,6 @@
 package mx.clip.api.controllers;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,7 +11,9 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import mx.clip.api.services.AmazonDynamoDbClient;
+import mx.clip.api.models.User;
+import mx.clip.api.services.UserService;
+
 
 
 @Async
@@ -19,11 +22,11 @@ import mx.clip.api.services.AmazonDynamoDbClient;
 public class UsersController {
     
     @Autowired
-    private AmazonDynamoDbClient dynamoClient;
+    UserService userService;
 
     @GetMapping("/{id}/transactions")
-    public List<String> GetTrasactionsAsync(@PathVariable String id)
+    public ArrayList<User> GetTrasactionsAsync(@PathVariable String id)
     {
-        return dynamoClient.amazonDynamoClient().listTables().tableNames();
+        return userService.getUsers();
     }
 }
