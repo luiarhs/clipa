@@ -3,9 +3,9 @@ Java API building with Spring Boot and MySQL
 
 ## Introduccion 
 
-`This is not for production ready`
+This is not for production ready
 
-This is a unfinished API yet, please give me one more night to do it...
+`This is a unfinished API yet, please give me one more weekend to do it...`
 
 ### Prerequisites
 
