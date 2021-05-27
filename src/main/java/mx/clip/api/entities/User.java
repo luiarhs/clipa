@@ -1,6 +1,4 @@
-package mx.clip.api.models;
-
-
+package mx.clip.api.entities;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
