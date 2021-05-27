@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import mx.clip.api.models.User;
+import mx.clip.api.entities.User;
 import mx.clip.api.services.UserService;
 
 
